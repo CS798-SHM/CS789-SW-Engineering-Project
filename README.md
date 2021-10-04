@@ -13,6 +13,7 @@ This is a project of software engineering postgraduate course.
 * [20-09-2021] Team meeting and discussing the selected research papers  
 * [22-09-2021] Team meeting with dr.Wojdan BinSaeedan 
 * [26-09-2021] Related work reading 
+* [30-09-2021] Team meeting
   <br/><br/>
 
 
