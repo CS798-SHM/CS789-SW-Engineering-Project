@@ -18,6 +18,8 @@ This is a project of software engineering postgraduate course.
 * [11-10-2021] Downloading the code and its resources
 * [13-10-2021] Starting the implementation
 * [29-10-2021] Team meeting
+* [2-11-2021] Start writing the PSO algorithm
+* [4-11-2021] Team meeting
   <br/><br/>
 
 
