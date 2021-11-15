@@ -1,6 +1,6 @@
 import random
 import math
-#------------------------------------------------------------------------------
+#-----------------------------------------------------------------------
 
 def objective_function(x):
     y = 3*(1-x[0])**2*math.exp(-x[0]**2 - (x[1]+1)**2) - 10*(x[0]/5 - x[0]**3 - x[1]**5)*math.exp(-x[0]**2 - x[1]**2) -1/3*math.exp(-(x[0]+1)**2 - x[1]**2);
@@ -101,4 +101,4 @@ if mm == 1:
     initial_fitness = -float("inf") # for maximization problem
 #------------------------------------------------------------------------------   
 # Main PSO         
-PSO(objective_function,bounds,particle_size,iterations)
+PSO(objective_function,bounds,particle_size,iterations) 
