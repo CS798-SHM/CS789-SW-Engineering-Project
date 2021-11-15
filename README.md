@@ -20,6 +20,8 @@ This is a project of software engineering postgraduate course.
 * [29-10-2021] Team meeting
 * [2-11-2021] Start writing the PSO algorithm
 * [4-11-2021] Team meeting
+* [11-11-2021] Team meeting
+* [13-11-2021] Meeting with dr.Wojdan to discuss the parameters values
   <br/><br/>
 
 
