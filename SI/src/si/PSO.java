@@ -7,6 +7,12 @@ public class PSO {
     Particle[] swarm_particle;
     int particle_size;
     int iterations;
+    // set alpaha , beta and gama values 
+    static double[] par = new double[3];
+    public static  double  alpha = par[0] ;
+	  public  static double beta= par[1];
+	 public  static double gamma = par[2];
+    
     
     public PSO(int particle_size, int iterations){
         global_best_particle_position = new double[SI.nv];
@@ -67,7 +73,7 @@ public class PSO {
     }
     
     
-    public void getOptimalSolution()
+    public double[] getOptimalSolution()
     {
         System.out.println("Number of Particles: " + particle_size);
         System.out.println("Number of Iterations: " + iterations);
@@ -76,10 +82,17 @@ public class PSO {
         System.out.println("Optimal Solution");
         for (int i = 0; i < SI.nv; i++) 
         {
-            System.out.println("x" + (i+1) + ": " + global_best_particle_position[i]);
+            //System.out.println("x" + (i+1) + ": " + global_best_particle_position[i]);
+             alpha = global_best_particle_position[0];
+        beta =  global_best_particle_position[1];
+        gamma= global_best_particle_position[2];
         }
+        par[0] = alpha;
+       par[1] = beta;
+       par[2] = gamma;
+        System.out.println("alpha : " + alpha + " beta : " + beta + " gamma : " +gamma);
         System.out.println();
-        
         System.out.println("Objective Function Value: " + fitness_global_best_particle_position);
+        return par;
     }
 }
