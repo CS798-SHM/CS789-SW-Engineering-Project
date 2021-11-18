@@ -22,6 +22,8 @@ This is a project of software engineering postgraduate course.
 * [4-11-2021] Team meeting
 * [11-11-2021] Team meeting
 * [13-11-2021] Meeting with dr.Wojdan to discuss the parameters values
+* [15-11-2021] Team meeting (worked on linking the tool with our PSO code)
+* [16-11-2021] Team meeting
   <br/><br/>
 
 
