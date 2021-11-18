@@ -7,7 +7,7 @@ public class PSO {
     Particle[] swarm_particle;
     int particle_size;
     int iterations;
-    // set alpaha , beta and gama values 
+    // set alpaha , beta and gamma values 
     static double[] par = new double[3];
     public static  double  alpha = par[0] ;
 	  public  static double beta= par[1];
@@ -79,7 +79,7 @@ public class PSO {
         System.out.println("Number of Iterations: " + iterations);
         System.out.println();
         
-        System.out.println("Optimal Solution");
+        System.out.println("The Optimal Solution");
         for (int i = 0; i < SI.nv; i++) 
         {
             //System.out.println("x" + (i+1) + ": " + global_best_particle_position[i]);
