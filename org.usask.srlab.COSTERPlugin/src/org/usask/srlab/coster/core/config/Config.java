@@ -69,9 +69,13 @@ public class Config {
 
     //Train test Related varaible
     public static final int FQN_THRESHOLD = 50;
-    public static final double alpha  = 0.94;
-    public static final double beta  = 0.22;
-    public static final double gamma  = 0.17;
+     static PSO pso = new PSO(100, 200);
+    public  final static double alpha  = pso.alpha; 
+    public  final static double beta  =pso.beta;
+    public  final static double gamma  =pso.gamma; 
+    //public static final double alpha  = 0.94;
+   // public static final double beta  = 0.22;
+    //public static final double gamma  = 0.17;
     public static final int DEFAULT_TOP  = 1;
 
     public static boolean isJavaKeyword(String token)
