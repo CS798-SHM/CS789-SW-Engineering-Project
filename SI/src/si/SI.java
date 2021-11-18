@@ -5,7 +5,9 @@ public class SI
 {
     // TO CUSTOMIZE THIS PSO CODE TO SOLVE UNCONSTRAINED OPTIMIZATION PROBLEMS, CHANGE THE PARAMETERS IN THIS SECTION ONLY:
     // THE FOLLOWING PARAMETERS MUST BE CHANGED.
-    
+    double alpha= Math.random();
+	  double beta= Math.random();
+	  double gamma= Math.random();
     public static double objective_function(double[] x)
    {
 	   double y = 0;
