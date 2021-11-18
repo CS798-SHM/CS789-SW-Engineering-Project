@@ -11,7 +11,7 @@ This is a project of software engineering postgraduate course.
 **Project timeline**
 * [(15-18)-09-2021] Reading and selecting research papers in ICSE2021 and MSR2021
 * [20-09-2021] Team meeting and discussing the selected research papers  
-* [22-09-2021] Team meeting with dr.Wojdan BinSaeedan 
+* [22-09-2021] Team meeting with dr.Wojdan  
 * [26-09-2021] Related work reading 
 * [30-09-2021] Team meeting
 * [09-10-2021] Meeting with dr.Wojdan
