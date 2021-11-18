@@ -19,7 +19,7 @@ public class SI
 			   return y; 
     } 
 
-    public static double[][] bounds = new double[][] {{0,1}, {0,1},{0,1}};
+    public static double[][] bounds = new double[][] {{0,1}, {0,1},{0,1}}; // {{0,0,0}, {1,1,1}} the bounds
     public static int nv = 3;                                                   // number of variables
     public static int mm = 1;                                                  // if minimization problem, mm = -1;
                                                                                 // if maximization problem, mm = 1
