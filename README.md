@@ -26,6 +26,7 @@ This is a project of software engineering postgraduate course.
 * [16-11-2021] Team meeting
 * [18-11-2021] Team meeting (solving some issues with the code)
 * [23-11-2021] Team meeting (solving some issues on running the tool)
+* [28-11-2021] Team meeting 
   <br/><br/>
 
 
