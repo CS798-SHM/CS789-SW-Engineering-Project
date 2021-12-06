@@ -28,6 +28,8 @@ This is a project of software engineering postgraduate course.
 * [23-11-2021] Team meeting (solving some issues on running the tool)
 * [28-11-2021] Team meeting
 * [29-11-2021] Team meeting
+* [2-12-2021] Team meeting
+* [5-12-2021] Team meeting
   <br/><br/>
 
 
