@@ -70,9 +70,9 @@ public class Config {
     //Train test Related varaible
     public static final int FQN_THRESHOLD = 50;
      static PSO pso = new PSO(100, 200);
-    public  final static double alpha  = pso.alpha; 
-    public  final static double beta  =pso.beta;
-    public  final static double gamma  =pso.gamma; 
+    public  final static double alpha  =0.97;  
+    public  final static double beta  =0.44;
+    public  final static double gamma  =0.21; 
     //public static final double alpha  = 0.94;
    // public static final double beta  = 0.22;
     //public static final double gamma  = 0.17;
