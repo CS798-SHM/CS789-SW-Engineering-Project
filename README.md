@@ -30,6 +30,7 @@ This is a project of software engineering postgraduate course.
 * [29-11-2021] Team meeting
 * [2-12-2021] Team meeting
 * [5-12-2021] Team meeting
+* [7-12-2021] Team meeting (Finalizing the project)
   <br/><br/>
 
 
@@ -40,7 +41,7 @@ This is a project of software engineering postgraduate course.
   <br/><br/>
   **Proposed work** 
   
-  Our proposed work is to optimize the COSTER tool [1] with a swarm intelligence (SI) algorithm. Moreover, it focuses on parameter tuning to optimize the used algorithm of refining the candidate list.  
+  Our proposed work is to optimize the COSTER tool [1] with Particle Swarm Optimization (PSO) algorithm. Moreover, it focuses on parameter tuning to optimize the used algorithm of refining the candidate list of FQN for API element.  
   
   <br/><br/>
   
