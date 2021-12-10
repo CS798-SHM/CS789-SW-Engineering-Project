@@ -14,8 +14,9 @@ public class SI
     	//EvaluationUtil evaluation = new EvaluationUtil(null);
     	//y= evaluation.getFscore();
 	   //y= 0.25 * x[0] + 0.48 *x[1] + 0.78 *x[2] ;
-	   EvaluationUtil evaluate =new EvaluationUtil();
-	   y= evaluate.getFscore();
+	  // EvaluationUtil evaluate =new EvaluationUtil();
+	  // y= evaluate.getFscore();
+	    y= 1/Math.abs((Math.max(Math.random(),Math.random()) * x[0]) + (Math.max(Math.random(),Math.random()) *x[1] )+ (Math.max(Math.random(),Math.random()) *x[2])-1) ;
 			   return y; 
     } 
 
